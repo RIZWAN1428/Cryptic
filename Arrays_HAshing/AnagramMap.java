@@ -7,7 +7,7 @@ public class AnagramMap {
         Map<Character, Integer> tcount = new HashMap<>();
 
         if(s.length() != t.length())
-            return false;
+            return false; 
 
         for(char c : s.toCharArray())
         {

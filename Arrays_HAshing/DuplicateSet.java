@@ -1,3 +1,4 @@
+package Arrays_HAshing;
 import java.util.HashSet;
 import java.util.*;
 

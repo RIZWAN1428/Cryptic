@@ -1,3 +1,4 @@
+package Arrays_HAshing;
 public class DuplicateNested {
     public boolean hasDuplicate(int[] nums) {
         for(int i=0; i<nums.length; i++)
