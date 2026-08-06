@@ -1,3 +1,4 @@
+import java.util.*;
 public class TwoSum{
     public int[] twoSum(int[] nums, int target)
     {
@@ -14,5 +15,12 @@ public class TwoSum{
 
         return new int[]{-1,-1};
     }
-
+    public static void main(String[] args)
+    {
+        int[] nums = {1,3,4,7};
+        int target = 5;
+        TwoSum d = new TwoSum();
+        int[] result = d.twoSum(nums, target);
+        System.out.println(Arrays.toString(result));
+    }
 }
