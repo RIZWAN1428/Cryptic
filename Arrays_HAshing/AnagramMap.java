@@ -36,7 +36,6 @@ public class AnagramMap {
     public static void main(String args[])
     {
         String a = "jar";
-        String b = "jam";
         String c = "raj";
 
         AnagramMap d = new AnagramMap();
