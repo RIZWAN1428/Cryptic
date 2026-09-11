@@ -1,4 +1,4 @@
-public class TapRainWater {
+public class TapRainWaterBF {
     public static int trap(int[] height) {
         
         int collect = 0;
